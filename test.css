@@ -129,8 +129,48 @@ section{
 
 /* Footer */
 
-footer{
-    text-align:center;
-    padding:30px;
-    color:#94A3B8;
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 30px 20px 10px;
+  margin-top: 40px;
+}
+
+/* container */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+/* section */
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+  margin-bottom: 10px;
+}
+
+/* links */
+.footer-section a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.footer-section a:hover {
+  color: white;
+}
+
+/* bottom */
+.footer-bottom {
+  text-align: center;
+  border-top: 1px solid #555;
+  padding-top: 10px;
+  font-size: 13px;
+  color: #aaa;
 }
